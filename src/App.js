@@ -8,6 +8,7 @@ export default function App() {
             <Users/>
             <Menu pages={['about', 'team', 'contact us']}
              classes={['asd','qwe','trolo']}/>
-        </div> );
+
+               </div> );
 }
 
