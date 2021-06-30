@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+export default function App() {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // let asd = {
+    //     id: = 1,
+    //     name: = 'vasia',
+    //     address: {city: 'Lviv', street: 'Svoboda', number: 18}
+    // };
+    // console.log(asd.address);
+    // console.log(asd.address.city);
+    // console.log(asd.address.street);
+    // console.log(asd.address.number);
+    //
+    // let {id,name,address,address:{city,street,number}}=asd;
+    //
+    // let x=100;
+    // let y=200;
+    // let coord ={x,y}
+    // let coord ={x:x,y:y} x:це ключб якщо він =значенню нема потреби його писати
+
+    function a(){
+
+    }
+    function b(){
+
+    }
+    return (
+        <div>
+            {/*<button onClick={function (){*/}
+            {/*a();*/}
+            {/*b();*/}
+            {/*}}> click me*/}
+            {/*</button>*/}
+        </div>
+    );
 }
-
-export default App;
