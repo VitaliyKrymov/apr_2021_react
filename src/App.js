@@ -1,3 +1,4 @@
+import User from "./components/user/User";
 export default function App() {
 
     // let asd = {
@@ -17,14 +18,18 @@ export default function App() {
     // let coord ={x,y}
     // let coord ={x:x,y:y} x:це ключб якщо він =значенню нема потреби його писати
 
-    function a(){
-
-    }
-    function b(){
-
-    }
+    // function a(){
+    //
+    // }
+    // function b(){
+    //
+    // }
     return (
         <div>
+
+            <User imya={'vasia1'} priz={'pupkin1'}/>
+            <User imya={'vasia2'} priz={'pupkin2'}/>
+            <User imya={'vasia3'} priz={'pupkin3'}/>
             {/*<button onClick={function (){*/}
             {/*a();*/}
             {/*b();*/}
